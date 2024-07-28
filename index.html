@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4d405d66f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+<style>
+
+*{
+    list-style-type: none;
+}
+
+    body{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1072%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1073%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1440 0L761.94 0L1440 215.95z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M761.94 0L1440 215.95L1440 225.36999999999998L735.1500000000001 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M735.1500000000001 0L1440 225.36999999999998L1440 314.7L568.0300000000001 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M568.0300000000001 0L1440 314.7L1440 427.49L557.4200000000001 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L478.32 560L0 525.94z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 525.94L478.32 560L720.8 560L0 244.14000000000004z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 244.14L720.8 560L804.89 560L0 197.13z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 197.13L804.89 560L908.47 560L0 121.36999999999999z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1072'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1073'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(158%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+        background-size: cover;
+        object-fit: cover;
+        height: 100vh;
+    }
+
+.home{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+flex-wrap: wrap;
+}
+
+.allhome{
+    position: relative;
+    top: 10%;
+}
+
+.home-search{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+
+}
+
+
+
+.group {
+ display: flex;
+ line-height: 28px;
+ align-items: center;
+ position: absolute;
+ width: 700px;
+ flex-wrap: wrap;
+
+}
+
+.input {
+   
+ width: 100%;
+ height: 40px;
+ line-height: 28px;
+ padding: 0 1rem;
+ padding-left: 2.5rem;
+ border: 2px solid transparent;
+ border-radius: 8px;
+ outline: none;
+ background-color: #f3f3f4;
+ color: #0d0c22;
+ transition: .3s ease;
+}
+
+.input::placeholder {
+ color: #9e9ea7;
+}
+
+.input:focus, input:hover {
+ outline: none;
+ border-color: rgba(234,76,137,0.4);
+ background-color: #fff;
+ box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+ position: absolute;
+ left: 1rem;
+
+ fill: #9e9ea7;
+ width: 1rem;
+ height: 1rem;
+}
+
+@media (max-width:470px){
+   
+.group{
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+
+.copyright h1{
+    position: relative;
+    top: 200px;
+}
+
+
+ul{
+    display: flex;
+    position: relative;
+  justify-content: center;
+
+    top: 140px;
+    left: -20px;
+}
+
+li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+   padding: 30px;
+   font-size: 30px;
+   
+
+
+}
+
+
+li a:hover{
+    color: rgb(151, 14, 14);
+    transition: 0.4s all ease;
+   
+}
+
+button {
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid black;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: black;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  top: -10px;
+}
+
+button:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: rgb(197, 39, 39);
+  z-index: -1;
+  
+}
+
+button:hover, button:focus {
+  color: white;
+}
+
+button:hover:before, button:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+
+.btnb{
+    position: relative;
+    top: 150px;
+    left: -5px;
+    display: flex;
+    justify-content: center;
+}
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+    
+<div class="allhome">
+<div class="home">
+<img src="cooltext444565349739614.png" width="350px">
+
+<div class="home-search">
+
+</div>
+</div>
+
+
+
+
+<div class="home-search">
+<div class="group">
+    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+    <input placeholder="Search" type="search" class="input">
+
+    
+  </div>
+</div>
+
+
+ 
+<ul>
+    <li>
+        <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                    
+    </li>
+    <li>
+        <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a> 
+     
+    </li>
+    <li>
+        <a href="#"> <i class="fa fa-google" aria-hidden="true"></i> </a> 
+       
+    </li>
+    <li>
+        <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+        
+     </li>
+    <li>
+</ul>
+<div class="btnb">
+<a href="marvel.html"><button> view full website</button></a>
+</div>
+
+<div class="copyrght">
+    <h1></h1>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
